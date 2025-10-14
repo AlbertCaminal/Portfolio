@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Albert Caminal</title>
+    <link rel="stylesheet" href="AC2_Tasca2.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="perfil">
+        <div class="info">
+          <h1>Albert Caminal</h1>
+          <p>Desenvolupador web</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <h1>Mis Proyectos</h1>
+      <section class="proyectos" id="proyectos">
+        <div class="proyecto">
+          <img src="Plantilla.png" alt="Proyecto Plantilla" />
+          <h2>Plantilla</h2>
+          <p>Diseño base de maquetación web con HTML y CSS Grid.</p>
+        </div>
+        <a href="https://e-commerce-lemon-zeta-94.vercel.app/" target="_blank" class="proyecto-link" >
+          <div class="proyecto" id="ecommerce">
+            <img src="ecommerce.png" alt="Proyecto eCommerce" />
+            <h2>eCommerce</h2>
+            <p>Tienda online moderna con Next.js, Tailwind y Turso.</p>
+            <p>(En desarrollo)</p>
+            <span class="hover-text">Haz clic para ver el proyecto</span>
+          </div>
+        </a>
+        <div class="proyecto">
+          <img src="TowerDefense Mobile Game.png" alt="Proyecto Tower Defense" />
+          <h2>TowerDefense Mobile Game</h2>
+          <p>Videojuego de móvil Tower Defense / Roguelike / DeckBuilder desarrollado en Unity.</p>
+          <p>(En desarrollo)</p>
+        </div>
+      </section>
+
+      <section class="habilidades" id="habilidades">
+        <h1>Habilidades</h1>
+        <div class="icon-grid">
+          <div class="logo">
+            <img src="iconos/html.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+
+          <div class="logo">
+            <img src="iconos/css.png" alt="CSS" />
+            <p>CSS</p>
+          </div>
+
+          <div class="logo">
+            <img src="iconos/js.png" alt="JavaScript" />
+            <p>JavaScript</p>
+          </div>
+
+          <div class="logo">
+            <img src="iconos/react.png" alt="React" />
+            <p>React</p>
+          </div>
+
+          <div class="logo">
+            <img src="iconos/tailwind.png" alt="Tailwind CSS" />
+            <p>Tailwind CSS</p>
+          </div>
+          
+          <div class="logo">
+            <img src="iconos/git.png" alt="Git" />
+            <p>Git</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacto" id="contacto">
+        <h1>Contacto</h1>
+        <form class="form-contacto" action="#" method="post">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://github.com/AlbertCaminal" target="_blank">
+          <img src="iconos/git.png" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/albert-caminal-mallol/"
+          target="_blank"
+        >
+          <img src="iconos/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="mailto:albertcaminalmallol@gmail.com">
+          <img src="iconos/mail.png" alt="Email" />
+        </a>
+      </div>
+
+      <p>© 2025 Albert Caminal — Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

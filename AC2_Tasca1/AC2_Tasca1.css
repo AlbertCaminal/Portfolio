@@ -1,0 +1,49 @@
+body {
+  height: 98vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: sans-serif;
+  background-color: #9ed9d3;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1.9fr 1fr;
+}
+
+.rojo {
+  background-color: #ff4c4c;
+  height: 100px;
+  margin: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+}
+
+.naranja {
+  background-color: #f7a834;
+  margin: 10px;
+}
+
+section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.morado {
+  background-color: #8a0a78;
+  margin: 10px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.azul {
+  background-color: #0b7b8e;
+  height: 60px;
+  margin: 10px;
+}
