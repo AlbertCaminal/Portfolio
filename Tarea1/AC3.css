@@ -1,0 +1,34 @@
+body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2e323f;
+  color: white;
+  padding-left: 20px;
+}
+
+section {
+  background-color: grey;
+}
+
+.nowrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div {
+  padding: 80px;
+  background-color: red;
+  margin: 15px;
+}
