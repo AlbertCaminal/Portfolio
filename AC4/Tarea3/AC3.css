@@ -1,0 +1,224 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+    margin: 0;
+}
+
+.top-banner {
+    background-color: #33347e;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #a514aa;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 20px;
+    background-color: #f8f8f8;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 5px;
+    margin: 0 20px;
+}
+
+.search-icon, .user-icon, .cart-icon {
+    cursor: pointer;
+}
+
+.user-cart-icons {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a514aa;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: end;
+    align-items: start;
+    padding: 80px 0px;
+    background-color: #e0bfc5;
+}
+
+.main-content-right {
+    width: 400px;
+    height: 300px;
+    background-color: #acdbc8;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #a514aa;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 50px;
+    background-color: #acdbc8;
+    color: black;
+    cursor: pointer;
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.carousel-panel {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.panel-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: -100%;
+    height: 100%;
+}
+
+.panel-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.panel-overlay h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+.panel-overlay p {
+    font-size: 16px;
+}
+
+.gifts-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.gifts-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.gifts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    gap: 40px;
+    justify-content: center;
+}
+
+.gift-item {
+    width: 250px;
+    height: 250px;
+    background-color: #a0dfa8;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 12px;
+    text-align: center;
+}
+
+.categories-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 800px));
+    gap: 60px;
+    padding: 40px 20px;
+    justify-content: center;
+}
+
+.category-item {
+    width: 800px;
+    height: 600px;
+    display: grid;
+    align-items: end;
+    justify-items: center;
+    background-color: #cabdbd;
+}
+
+.lifestyle {
+    background-color: #cabdbd;
+}
+
+.home-decor {
+    background-color: #cabdbd;
+}
+
+.category-item h3 {
+    font-size: 32px;
+    color: #333;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.459);
+    padding: 80px;
+    width: 100%;
+    text-align: center;
+}

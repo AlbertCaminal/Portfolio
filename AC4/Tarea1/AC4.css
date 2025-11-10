@@ -1,0 +1,48 @@
+.draft {
+  width: 820px;
+  margin: 24px auto;
+  padding: 20px;
+  border: 16px solid #e6e6e6;
+  background: #fff;
+}
+
+.layout {
+  width: 800px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 360px 180px 180px;
+  grid-template-rows: 180px 180px 160px;
+  gap: 20px;
+  grid-template-areas:
+    "big small small"
+    "big small small"
+    "bottom bottom bottom";
+  margin: 20px;
+}
+.big {
+  grid-area: big;
+  background: 20px;
+  border-radius: 14px;
+  width: 100%;
+  background: #e3e3e3;
+}
+.small {
+  grid-area: small;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.bottom {
+  grid-area: bottom;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+}
+.circle {
+  background: #e3e3e3;
+  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1/1;
+}

@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+}
+
+main {
+  width: 900px;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(24, 163, 24);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    ". t1 t2 ."
+    "b1 b2 b3 b4"
+    "stack b5 . .";
+  gap: 18px;
+  transform: scale(0.4);
+  transform-origin: top left;
+}
+
+.big-frame {
+  background: black;
+  padding: 8px;
+  height: 740px;
+  border: 8px solid #16c516;
+}
+
+.small-frame {
+  background: black;
+  padding: 16px;
+  height: 300px;
+  border: 8px solid #16c516;
+}
+
+.item1 {
+  grid-area: t1;
+}
+.item2 {
+  grid-area: t2;
+}
+.item3 {
+  grid-area: b1;
+}
+.item4 {
+  grid-area: b2;
+}
+.item5 {
+  grid-area: b3;
+}
+.item6 {
+  grid-area: b4;
+}
+.item7 {
+  grid-area: b5;
+}
+.stack {
+  grid-area: stack;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 12px;
+}
+.stack-img .frame {
+  padding: 6px;
+}
